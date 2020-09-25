@@ -82,29 +82,33 @@
       let result1 = playRound();
       if (result1 == "Computer Wins. womp, womp.."){
         compWinCount=compWinCount+1;
-        console.log(result1);
+        console.log("Round" + i + " " + result1);
         console.log("Score:");
         console.log("Player Wins: " + playerWinCount);
         console.log("Computer Wins: " + compWinCount);
         console.log("Draws: " + drawCount);
+        console.log("__________________________");
+
 
       }
       else if (result1 == "You win, suck it HAL9000!"){
         playerWinCount=playerWinCount+1;
-        console.log(result1);
+        console.log("Round" + i + " " + result1);
         console.log("Score:");
         console.log("Player Wins: " + playerWinCount);
         console.log("Computer Wins: " + compWinCount);
         console.log("Draws: " + drawCount);
+        console.log("__________________________");
 
       }
       else{
         drawCount=drawCount+1;
-        console.log(result1);
+        console.log("Round" + i + " " + result1);
         console.log("Score:");
         console.log("Player Wins: " + playerWinCount);
         console.log("Computer Wins: " + compWinCount);
         console.log("Draws: " + drawCount);
+        console.log("__________________________");
 
       }
       }
